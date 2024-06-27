@@ -28,7 +28,7 @@ app.post("/check",(req,res)=>{
 })
 
 function auth(req,res,next){
-    // console.log(req.body["password"]);
+    console.log(req.body["password"]);
     pwd=req.body["password"];
     next();
 }
